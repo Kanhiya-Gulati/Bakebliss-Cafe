@@ -1,6 +1,12 @@
 # 🎂 Bake Bliss Café
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-bakeblisscafe.netlify.app-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://bakeblisscafe.netlify.app/)
+
+![Bake Bliss Café Banner](images/hero_bakery.jpg)
+
 **Bake Bliss Café** is a modern, responsive web application for a premium bakery and café. It showcases freshly baked artisan breads, handcrafted cakes, pastries, Indian fusion treats like Rasmalai Cake and Kulhad Coffee, and cozy café dining experiences.
+
+🔗 **Live Website:** [https://bakeblisscafe.netlify.app/](https://bakeblisscafe.netlify.app/)
 
 ---
 
@@ -84,7 +90,7 @@ Ensure you have [Node.js](https://nodejs.org/) (v16 or higher) installed on your
 - **HTML5 / CSS3 / JavaScript (ES6+)**
 - **React.js**
 - **Google Fonts** (`Playfair Display` & `Poppins`)
-- **Serve** (Static Server)
+- **Netlify** (Deployment)
 
 ---
 
