@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Scripts & temporary files
+push_to_github.js
+push_via_api.js
+
+# Production build folders & archives
+dist/
+build/
+*.zip
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+
+# Operating System files
+.DS_Store
+Thumbs.db
