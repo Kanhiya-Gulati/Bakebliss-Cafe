@@ -1,7 +1,5 @@
 # 🎂 Bake Bliss Café
 
-![Bake Bliss Café Banner](images/hero_bakery.jpg)
-
 **Bake Bliss Café** is a modern, responsive web application for a premium bakery and café. It showcases freshly baked artisan breads, handcrafted cakes, pastries, Indian fusion treats like Rasmalai Cake and Kulhad Coffee, and cozy café dining experiences.
 
 ---
