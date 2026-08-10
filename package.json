@@ -6,18 +6,18 @@
   "scripts": {
     "start": "serve . -p 8085",
     "preview": "serve dist -p 8085",
-    "build": "node -e \"const fs=require('fs'),path=require('path');function cp(s,d){if(fs.statSync(s).isDirectory()){if(!fs.existsSync(d))fs.mkdirSync(d,{recursive:true});fs.readdirSync(s).forEach(c=>{if(!['dist','build','node_modules','.git','bakeblisscafe-build.zip'].includes(c))cp(path.join(s,c),path.join(d,c))});}else{fs.mkdirSync(path.dirname(d),{recursive:true});fs.copyFileSync(s,d);}} cp('.','dist'); cp('.','build'); console.log('Build generated in dist/ & build/ folders!');\""
+    "build": "node -e \"const fs=require('fs'),path=require('path');function cp(s,d){if(fs.statSync(s).isDirectory()){if(!fs.existsSync(d))fs.mkdirSync(d,{recursive:true});fs.readdirSync(s).forEach(c=>{if(!['dist','build','node_modules','.git'].includes(c))cp(path.join(s,c),path.join(d,c))});}else{fs.mkdirSync(path.dirname(d),{recursive:true});fs.copyFileSync(s,d);}} cp('.','dist'); cp('.','build'); console.log('Build generated in dist/ & build/ folders!');\""
   },
   "keywords": [
     "bakery",
     "cafe",
     "react",
-    "static-site"
+    "static-site",
+    "bakebliss"
   ],
-  "author": "",
+  "author": "Kanhiya Gulati",
   "license": "ISC",
   "dependencies": {
-    "isomorphic-git": "^1.41.2",
     "serve": "^14.2.4"
   }
 }

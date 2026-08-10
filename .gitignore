@@ -1,9 +1,6 @@
 # Dependencies
 node_modules/
 
-# Scripts & temporary files
-push_to_github.js
-push_via_api.js
 
 # Production build folders & archives
 dist/
